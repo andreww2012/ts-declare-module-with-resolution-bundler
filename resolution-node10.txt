@@ -1,0 +1,15 @@
+======== Resolving module 'vue/types/vue' from 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/vue-extension.d.ts'. ========
+Explicitly specified module resolution kind: 'Node10'.
+'baseUrl' option is set to 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler', using this value to resolve non-relative module name 'vue/types/vue'.
+'paths' option is specified, looking for a pattern to match module name 'vue/types/vue'.
+'baseUrl' option is set to 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler', using this value to resolve non-relative module name 'vue/types/vue'.
+Resolving module name 'vue/types/vue' relative to base url 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler' - 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/vue/types/vue'.
+Loading module as file / folder, candidate module location 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/vue/types/vue', target file types: TypeScript, Declaration.
+Loading module 'vue/types/vue' from 'node_modules' folder, target file types: TypeScript, Declaration.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+File 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue/package.json' exists according to earlier cached lookups.
+File 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue/types/vue.ts' does not exist.
+File 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue/types/vue.tsx' does not exist.
+File 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue/types/vue.d.ts' exists - use it as a name resolution result.
+Resolving real path for 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue/types/vue.d.ts', result 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/.pnpm/vue@2.7.14/node_modules/vue/types/vue.d.ts'.
+======== Module name 'vue/types/vue' was successfully resolved to 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/.pnpm/vue@2.7.14/node_modules/vue/types/vue.d.ts' with Package ID 'vue/types/vue.d.ts@2.7.14'. ========

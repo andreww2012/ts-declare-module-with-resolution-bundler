@@ -1,0 +1,32 @@
+======== Resolving module 'vue/types/vue' from 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/vue-extension.d.ts'. ========
+Explicitly specified module resolution kind: 'Bundler'.
+Resolving in CJS mode with conditions 'import', 'types'.
+'baseUrl' option is set to 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler', using this value to resolve non-relative module name 'vue/types/vue'.    
+'paths' option is specified, looking for a pattern to match module name 'vue/types/vue'.   
+'baseUrl' option is set to 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler', using this value to resolve non-relative module name 'vue/types/vue'.    
+Resolving module name 'vue/types/vue' relative to base url 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler' - 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/vue/types/vue'.
+Loading module as file / folder, candidate module location 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/vue/types/vue', target file types: TypeScript, JavaScript, Declaration, JSON.
+File 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/package.json' exists according to earlier cached lookups.
+Loading module 'vue/types/vue' from 'node_modules' folder, target file types: TypeScript, JavaScript, Declaration, JSON.
+Searching all ancestor node_modules directories for preferred extensions: TypeScript, Declaration.
+File 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue/package.json' exists according to earlier cached lookups.
+Using 'exports' subpath './types/*' with target './types/vue'.
+Export specifier './types/vue' does not exist in package.json scope at path 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue'.        
+Directory 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/@types' does not exist, skipping all lookups in it.
+Directory 'C:/Users/my-username/Documents/Repos/_temp/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/my-username/Documents/Repos/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/my-username/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/my-username/node_modules' does not exist, skipping all lookups in it.        
+Directory 'C:/Users/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/node_modules' does not exist, skipping all lookups in it.
+Searching all ancestor node_modules directories for fallback extensions: JavaScript, JSON. 
+File 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue/package.json' exists according to earlier cached lookups.
+Using 'exports' subpath './types/*' with target './types/vue'.
+Export specifier './types/vue' does not exist in package.json scope at path 'C:/Users/my-username/Documents/Repos/_temp/ts-declare-module-with-resolution-bundler/node_modules/vue'.        
+Directory 'C:/Users/my-username/Documents/Repos/_temp/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/my-username/Documents/Repos/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/my-username/Documents/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/Users/my-username/node_modules' does not exist, skipping all lookups in it.        
+Directory 'C:/Users/node_modules' does not exist, skipping all lookups in it.
+Directory 'C:/node_modules' does not exist, skipping all lookups in it.
+======== Module name 'vue/types/vue' was not resolved. ========

@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "composite": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["*"]
+    },
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "types": [],
+
+    "strict": true,
+
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "noEmit": true,
+
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "jsx": "preserve",
+    "jsxFactory": "h",
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+
+  "include": [
+    "**/*"
+  ],
+
+  "files": ["vue-extension.d.ts"],
+
+  "exclude": ["node_modules"],
+
+  "vueCompilerOptions": {
+    "target": 2.7
+  }
+}
